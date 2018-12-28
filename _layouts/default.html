@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <title>{{site.title}}</title>
+  <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 
   <!-- CSS  -->
   <style>html{visibility: hidden;opacity:0;}</style>
