@@ -1,0 +1,10 @@
+- name: Home
+  url: /
+- name: Discography
+  url: /discography.html
+- name: Concerts
+  url: /concerts.html
+- name: Links
+  url: /links.html
+- name: About
+  url: /about.html
