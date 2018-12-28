@@ -1,4 +1,6 @@
 name: Amenra
 
+baseurl: "/amenra"
+
 sass:
   style: compressed
