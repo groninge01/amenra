@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - 2.4.1
+  
 
 # set execution permission on our build script
 before_script:
