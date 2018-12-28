@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-The homepage!
+Discography
