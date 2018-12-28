@@ -4,10 +4,10 @@ rvm:
 
 # set execution permission on our build script
 before_script:
- - chmod +x ./script/cibuild
+ - chmod +x ./_script/cibuild
 # path to our build script. 
 # Travis will run `bundle install` by default before running our script
-script: ./script/cibuild
+script: ./_script/cibuild
 
 # only run CI-builds on master branch
 branches:
