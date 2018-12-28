@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: music-wall
+title: Discography
 ---
-Discography

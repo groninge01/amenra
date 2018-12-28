@@ -1,3 +1,4 @@
 ---
 layout: concerts
+title: Concerts
 ---
