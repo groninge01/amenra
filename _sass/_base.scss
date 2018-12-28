@@ -1,4 +1,9 @@
-$primary-color: color("grey", "darken-4") !default;
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+.logo {
+  font-family: 'Cinzel';
+  font-weight: 700;
+}
 
 nav {
   ul {

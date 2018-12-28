@@ -1,8 +1,8 @@
 <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper container">
-        <a id="logo-container" href={{ "/" | relative_url }} class="brand-logo left">Amenra</a>
-        <a href="#" data-target="nav-mobile" class="right sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+        <a id="logo-container" href={{ "/" | relative_url }} class="brand-logo logo left"> A M E N R A </a>
+        <a href="#" data-target="nav-mobile" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
         {% for item in site.data.navigation %}
             <li{% if item.url == page.url %} class="active"{% endif %}>
