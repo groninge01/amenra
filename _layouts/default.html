@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow, archive">
+  <meta name="googlebot" content="index, follow, archive">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <title>{{site.title}}</title>
+
+  <!-- CSS  -->
+  <style>html{visibility: hidden;opacity:0;}</style>
+
+</head>
+
+<body>
+
+  {% include header.html %}
+
+  <main>
+      {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <!--  Scripts-->
+  <noscript id="deferred-styles">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href={{ "/assets/css/style.css" | relative_url }} type="text/css" rel="stylesheet" media="screen,projection" />
+  </noscript>
+  <script>
+    var loadDeferredStyles = function () {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(function () {
+      window.setTimeout(loadDeferredStyles, 0);
+    });
+    else window.addEventListener('load', loadDeferredStyles);
+  </script>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src={{ "/assets/js/materialize.min.js" | relative_url}}></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+  </script>
+
+</body>
+
+</html>
