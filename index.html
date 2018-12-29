@@ -13,7 +13,12 @@
   <title>Amenra | Home</title>
 
   <!-- CSS  -->
-  <style>html{visibility: hidden;opacity:0;}</style>
+  <style>
+    html {
+      visibility: hidden;
+      opacity: 0;
+    }
+  </style>
 
 </head>
 
@@ -98,9 +103,11 @@
 
  </header>
 
-  <main class="container">
-      <p>The homepage!</p>
+  <main>
+    <div class="container">
+    <p>The homepage!</p>
 
+</div>
   </main>
 
   <footer class="page-footer">
@@ -142,6 +149,10 @@
       var instances = M.Sidenav.init(elems, {
         edge: 'right'
       });
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
     });
   </script>
 

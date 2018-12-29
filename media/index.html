@@ -13,7 +13,12 @@
   <title>Amenra | Media</title>
 
   <!-- CSS  -->
-  <style>html{visibility: hidden;opacity:0;}</style>
+  <style>
+    html {
+      visibility: hidden;
+      opacity: 0;
+    }
+  </style>
 
 </head>
 
@@ -98,8 +103,14 @@
 
  </header>
 
-  <main class="container">
-      <div class="container">
+  <main>
+    <div class="parallax-container">
+    <div class="parallax">
+        <img src=/amenra/assets/images/pexels-photo-145707.webp style="transform: translate3d(-50%, 356.006px, 0px); opacity: 1;">
+        <div class="top-centered">MEDIA</div>
+    </div>
+</div>
+<div class="container">
     <div class="row">
         <div class="col m6 l6">
             <h5>Studio Albums</h5>
@@ -131,42 +142,6 @@
   </li>
   
 </ul>
-        </div>
-        <div class="col m6 l6">
-            <h5>EPs</h5>
-            
-            <ul class="collection">
-  
-  <li class="collection-item">
-    Prayers 9+10 12" - 2004
-  </li>
-  
-  <li class="collection-item">
-    Afterlife 10" + CD - 2009
-  </li>
-  
-</ul>
-            <h5>Live Albums</h5>
-            
-            <ul class="collection">
-  
-  <li class="collection-item">
-    Live - 2012
-  </li>
-  
-  <li class="collection-item">
-    Live II - 2014
-  </li>
-  
-  <li class="collection-item">
-    Alive - 2016
-  </li>
-  
-</ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col m6 l6">
             <h5>Splits</h5>
             
             <ul class="collection">
@@ -220,8 +195,36 @@
   </li>
   
 </ul>
-        </div>
-        <div class="col m6 l6">
+            <h5>EPs</h5>
+            
+            <ul class="collection">
+  
+  <li class="collection-item">
+    Prayers 9+10 12" - 2004
+  </li>
+  
+  <li class="collection-item">
+    Afterlife 10" + CD - 2009
+  </li>
+  
+</ul>
+            <h5>Live Albums</h5>
+            
+            <ul class="collection">
+  
+  <li class="collection-item">
+    Live - 2012
+  </li>
+  
+  <li class="collection-item">
+    Live II - 2014
+  </li>
+  
+  <li class="collection-item">
+    Alive - 2016
+  </li>
+  
+</ul>
             <h5>DVDs</h5>
             
             <ul class="collection">
@@ -286,6 +289,9 @@
   
 </ul>
         </div>
+        <div class="col m6 l6">
+            side content
+        </div>
     </div>
 </div>
   </main>
@@ -329,6 +335,10 @@
       var instances = M.Sidenav.init(elems, {
         edge: 'right'
       });
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
     });
   </script>
 
