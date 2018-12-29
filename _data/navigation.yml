@@ -1,10 +1,10 @@
 - name: Home
   url: /
 - name: Media
-  url: /media
+  url: /media/
 - name: Shows
-  url: /shows
+  url: /shows/
 - name: Links
-  url: /links
+  url: /links/
 - name: About
-  url: /about
+  url: /about/
