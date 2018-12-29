@@ -1,6 +1,10 @@
 <div class="parallax-container">
     <div class="parallax">
-        <img src={{ include.image | relative_url }} style="transform: translate3d(-50%, 356.006px, 0px); opacity: 1;">
+        <picture>
+            <source srcset={{ include.image_webp | relative_url }} type="image/webp">
+            <source srcset={{ include.image_jpeg | relative_url }} type="image/jpeg">
+            <img src={{ include.image_jpeg | relative_url }} alt="Alt Text!" style="transform: translate3d(-50%, 356.006px, 0px); opacity: 1;">
+        </picture>
         <div class="top-centered">{{ include.title }}</div>
     </div>
 </div>
