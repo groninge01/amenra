@@ -1,0 +1,83 @@
+studio-albums:
+  - name: Mass I
+    year: 2003
+  - name: Mass II Sermons
+    year: 2005
+  - name: Mass III
+    year: 2005
+  - name: Mass IIII
+    year: 2008
+  - name: Mass V
+    year: 2012
+  - name: Mass VI
+    year: 2017
+
+eps:
+  - name: Prayers 9+10 12"
+    year: 2004
+  - name: Afterlife 10" + CD
+    year: 2009
+
+splits:
+  - name: Vuur / Amenra 7"
+    year: 2004
+  - name: Vuur / Amenra / Gameness / Gantz CD
+    year: 2004
+  - name: Amenra / Hitch 7"
+    year: 2007
+  - name: Amenra / Hive Destruction 10"
+    year: 2011
+  - name: Amenra / The Black Heart Rebellion 12"
+    year: 2011
+  - name: Amenra / Oathbreaker 7"
+    year: 2011
+  - name: Amenra / Hessian 7"
+    year: 2012
+  - name: Amenra / Madensuyu 10"
+    year: 2014
+  - name: Amenra / VVOVNDS 12"
+    year: 2014
+  - name: Amenra / Eleanora 10"
+    year: 2014
+  - name: Amenra / Treha Sektori 10"
+    year: 2014
+  - name: Amenra / Sofie Verdoodt 7"
+    year: 2015
+
+live-albums:
+  - name: Live
+    year: 2012
+  - name: Live II
+    year: 2014
+  - name: Alive
+    year: 2016
+
+dvds:
+  - name: Mass III (Hypertension Records pre-order special)
+    year: 2005
+  - name: Church of Ra
+    year: 2009
+  - name: 23.10
+    year: 2009
+  - name: 01.06 (Fortarock 2013)
+    year: 2013
+  - name: 22.12 (Ancienne Belgique 2012)
+    year: 2013
+
+books:
+  - name: Church of Ra
+    year: 2008
+
+singles-and-music-videos:
+  - name: "Nowena"
+    year: 2012
+  - name: "Boden"
+    year: 2012
+  - name: "A Mon Âme"
+    year: 2014
+  - name: "Charon"
+    year: 2016
+  - name: "Children of the Eye"
+    year: 2017
+  - name: "A Solitary Reign"
+    year: 2017
