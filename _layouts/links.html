@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h5>Side Projects</h5>
+        </div>
+    </div>
+    <div class="row">
+        {% assign category = "side-projects" %}
+        {% include cards.html %}
+    </div>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="col">
+            <h5>Labels</h5>
+        </div>
+    </div>
+    <div class="row">
+        {% assign category = "labels" %}
+        {% include cards.html %}
+    </div>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="col">
+            <h5>Photographers</h5>
+        </div>
+    </div>
+    <div class="row">
+        {% assign category = "photographers" %}
+        {% include cards.html %}
+    </div>
+</div>
