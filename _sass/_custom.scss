@@ -31,6 +31,19 @@ p {
   line-height: 2rem;
 }
 
+/* top centered text overlay */
+.top-centered {
+  padding: 10px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  color: #fff;
+  font-size: 450%;
+  border-radius: 15px;
+}
+
 @media only screen and (max-width: 992px) {
   #index-banner .section {
     top: 10%;

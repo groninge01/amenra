@@ -13,7 +13,12 @@
   <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 
   <!-- CSS  -->
-  <style>html{visibility: hidden;opacity:0;}</style>
+  <style>
+    html {
+      visibility: hidden;
+      opacity: 0;
+    }
+  </style>
 
 </head>
 
@@ -21,8 +26,8 @@
 
   {% include header.html %}
 
-  <main class="container">
-      {{ content }}
+  <main>
+    {{ content }}
   </main>
 
   {% include footer.html %}
@@ -54,6 +59,10 @@
       var instances = M.Sidenav.init(elems, {
         edge: 'right'
       });
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
     });
   </script>
 
