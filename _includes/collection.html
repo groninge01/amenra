@@ -1,0 +1,10 @@
+<h6>{{ include.title }}</h6>
+<ul class="collection">
+  {% for item in site.data.links[category] %}
+  <li class="collection-item">
+    <a href={{ item.url | relative_url}} target="_blank">
+      {{ item.name }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
