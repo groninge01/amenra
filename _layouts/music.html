@@ -1,31 +1,31 @@
 ---
 layout: default
 ---
-{% include parallax.html image="/assets/images/pexels-photo-145707.webp" title="MEDIA" %}
+{% include parallax.html image="/assets/images/pexels-photo-145707.webp" title="MUSIC" %}
 <div class="container">
     <div class="row">
         <div class="col m6 l6">
             <h5>Studio Albums</h5>
             {% assign category = "studio-albums" %}
-            {% include collection.html %}
+            {% include music-collection.html %}
             <h5>Splits</h5>
             {% assign category = "splits" %}
-            {% include collection.html %}
+            {% include music-collection.html %}
             <h5>EPs</h5>
             {% assign category = "eps" %}
-            {% include collection.html %}
+            {% include music-collection.html %}
             <h5>Live Albums</h5>
             {% assign category = "live-albums" %}
-            {% include collection.html %}
+            {% include music-collection.html %}
             <h5>DVDs</h5>
             {% assign category = "dvds" %}
-            {% include collection.html %}
+            {% include music-collection.html %}
             <h5>Books</h5>
             {% assign category = "books" %}
-            {% include collection.html %}
+            {% include music-collection.html %}
             <h5>Singles & Music Videos</h5>
             {% assign category = "singles-and-music-videos" %}
-            {% include collection.html %}
+            {% include music-collection.html %}
         </div>
         <div class="col m6 l6">
             side content

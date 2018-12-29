@@ -1,7 +1,7 @@
 - name: Home
   url: /
-- name: Media
-  url: /media/
+- name: Music
+  url: /music/
 - name: Shows
   url: /shows/
 - name: Links
