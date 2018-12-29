@@ -1,10 +1,10 @@
 - name: Home
   url: /
-- name: Discography
-  url: /discography.html
-- name: Concerts
-  url: /concerts.html
+- name: Media
+  url: /media
+- name: Shows
+  url: /shows
 - name: Links
-  url: /links.html
+  url: /links
 - name: About
-  url: /about.html
+  url: /about
