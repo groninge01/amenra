@@ -7,4 +7,5 @@ sass:
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+exclude:
+  - README.md
