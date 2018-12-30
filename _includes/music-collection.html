@@ -2,12 +2,16 @@
 <ul class="collection">
   {% for item in site.data.music[category] %}
   <li class="collection-item">
-    <!-- show if on bandcamp -->
-    {% if item.bc-slug %}
-      {% include bandcamp.html bc-slug=item.bc-slug bc-id=item.bc-id name=item.name year=item.year %}
-    {% else %}
-      {{ item.name }} - {{ item.year }}
-    {% endif %}
+    <div class="row valign-wrapper">
+      <div class="col m8 l8">
+        {{ item.name }} - {{ item.year }}
+      </div>
+      <div class="col m4 l4">
+          {% if item.bc-slug %}
+          {% include bandcamp.html bc-slug=item.bc-slug bc-id=item.bc-id %}
+          {% endif %}
+      </div>
+    </div>
   </li>
   {% endfor %}
 </ul>
