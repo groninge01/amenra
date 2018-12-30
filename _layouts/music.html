@@ -1,34 +1,31 @@
 ---
 layout: default
 ---
-{% include parallax.html image_webp="/assets/images/pexels-photo-145707.webp" image_jpeg="/assets/images/pexels-photo-145707.jpeg" title="MUSIC" %}
+{% include parallax.html image_webp="/assets/images/pexels-photo-145707.webp"
+image_jpeg="/assets/images/pexels-photo-145707.jpeg" title="MUSIC" %}
 <div class="container">
     <div class="row">
         <div class="col m6 l6">
-            <h5>Studio Albums</h5>
             {% assign category = "studio-albums" %}
-            {% include music-collection.html %}
-            <h5>Splits</h5>
+            {% include music-collection.html title="Studio Albums" %}
+
             {% assign category = "splits" %}
-            {% include music-collection.html %}
-            <h5>EPs</h5>
+            {% include music-collection.html title="Splits" %}
+
             {% assign category = "eps" %}
-            {% include music-collection.html %}
-            <h5>Live Albums</h5>
+            {% include music-collection.html title="EPs" %}
+
             {% assign category = "live-albums" %}
-            {% include music-collection.html %}
-            <h5>DVDs</h5>
+            {% include music-collection.html title="Live Albums" %}
+
             {% assign category = "dvds" %}
-            {% include music-collection.html %}
-            <h5>Books</h5>
+            {% include music-collection.html title="DVDs" %}
+
             {% assign category = "books" %}
-            {% include music-collection.html %}
-            <h5>Singles & Music Videos</h5>
+            {% include music-collection.html title="Books" %}
+
             {% assign category = "singles-and-music-videos" %}
-            {% include music-collection.html %}
-        </div>
-        <div class="col m6 l6">
-            side content
+            {% include music-collection.html title="Singles & Music Videos" %}
         </div>
     </div>
 </div>

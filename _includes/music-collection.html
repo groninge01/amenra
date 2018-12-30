@@ -1,7 +1,11 @@
+<h5>{{ include.title }}</h5>
 <ul class="collection">
   {% for item in site.data.music[category] %}
   <li class="collection-item">
-    {{ item.name }} - {{ item.year }}
+    {{ item.name }} - {{ item.year }} 
+    {% if item.bc-name %}
+    {% include bandcamp.html bc-name=item.bc-name bc-id=item.bc-id %}
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
