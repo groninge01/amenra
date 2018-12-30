@@ -6,6 +6,3 @@ sass:
   style: compressed
 
 show_excerpts: true # set to true to show excerpts on the homepage
-
-exclude:
-  - README.md

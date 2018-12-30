@@ -15,7 +15,7 @@ branches:
   only:
   - master
 
-exclude: [vendor]
+exclude: [vendor, README.md]
 
 env:
   global:
