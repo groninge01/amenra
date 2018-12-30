@@ -1,14 +1,24 @@
 studio-albums:
   - name: Mass I
     year: 2003
+    bc-slug: mass-i
+    bc-id: "1588636452"
   - name: Mass II Sermons
     year: 2005
+    bc-slug: mass-ii
+    bc-id: "2236807185"
   - name: Mass III
     year: 2005
+    bc-slug: mass-iii
+    bc-id: "1649918700"
   - name: Mass IIII
     year: 2008
+    bc-slug: mass-iiii
+    bc-id: "295147177"
   - name: Mass V
     year: 2012
+    bc-slug: mass-v
+    bc-id: "1337210314"
   - name: Mass VI
     year: 2017
     bc-slug: mass-vi
@@ -19,6 +29,8 @@ eps:
     year: 2004
   - name: Afterlife 10" + CD
     year: 2009
+    bc-slug: afterlife
+    bc-id: "2790814002"
 
 splits:
   - name: Vuur / Amenra 7"
@@ -51,8 +63,12 @@ live-albums:
     year: 2012
   - name: Live II
     year: 2014
+    bc-slug: amenra-live-ii
+    bc-id: "3269305168"
   - name: Alive
     year: 2016
+    bc-slug: alive
+    bc-id: "3258388357"
 
 dvds:
   - name: Mass III (Hypertension Records pre-order special)
