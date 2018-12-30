@@ -11,8 +11,7 @@ studio-albums:
     year: 2012
   - name: Mass VI
     year: 2017
-    bc: true
-    bc-name: mass-vi
+    bc-slug: mass-vi
     bc-id: "144929319"
 
 eps:
