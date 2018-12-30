@@ -3,10 +3,10 @@
   {% for item in site.data.music[category] %}
   <li class="collection-item">
     <div class="row valign-wrapper">
-      <div class="col m8 l8">
+      <div class="col s12 m8 l8">
         {{ item.name }} - {{ item.year }}
       </div>
-      <div class="col m4 l4">
+      <div class="col s12 m4 l4">
           {% if item.bc-slug %}
           {% include bandcamp.html bc-slug=item.bc-slug bc-id=item.bc-id %}
           {% endif %}

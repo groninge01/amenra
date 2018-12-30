@@ -34,6 +34,12 @@ nav {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .valign-wrapper {
+    display: block;
+  }
+}
+
 p {
   line-height: 2rem;
 }
