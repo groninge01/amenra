@@ -2,6 +2,7 @@ title: Amenra
 description: >- # this means to ignore newlines until "baseurl:"
   Amenra has a unique musical style, characterised by brooding atmospheres and spiritual intensity. It is rooted in doom metal, hardcore punk and post-rock.
 baseurl: ""
+url: "https://www.amenra.ml" 
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
