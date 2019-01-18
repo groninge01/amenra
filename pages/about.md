@@ -3,6 +3,8 @@ layout: about
 title: About
 permalink: /about/
 image:
+sitemap:
+  lastmod: 2018-12-11
 ---
 Amenra is a Belgian band from Kortrijk. It was formed in 1999 by vocalist Colin H. van Eeckhout and guitarist Mathieu Vandekerckhove, who now perform alongside drummer Bjorn Lebon, guitarist Lennart Bossu and bassist Levy Seynaeve. 
 {: .flow-text}
