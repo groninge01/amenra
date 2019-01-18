@@ -1,71 +1,21 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+{% include head.html %}
 
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow, archive">
-  <meta name="googlebot" content="index, follow, archive">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <body>
 
-  <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+    {% include header.html %}
 
-  <!-- CSS  -->
-  <style>
-    html {
-      visibility: hidden;
-      opacity: 0;
-    }
-  </style>
+    <main>
+      {{ content }}
+    </main>
 
-</head>
+    {% include footer.html %}
+    {% include scripts.html %}
 
-<body>
-
-  {% include header.html %}
-
-  <main>
-    {{ content }}
-  </main>
-
-  {% include footer.html %}
-
-  <!--  Scripts-->
-  <noscript id="deferred-styles">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link href={{ "/assets/css/style.css" | relative_url }} type="text/css" rel="stylesheet" media="screen,projection" />
-  </noscript>
-  <script>
-    var loadDeferredStyles = function () {
-      var addStylesNode = document.getElementById("deferred-styles");
-      var replacement = document.createElement("div");
-      replacement.innerHTML = addStylesNode.textContent;
-      document.body.appendChild(replacement)
-      addStylesNode.parentElement.removeChild(addStylesNode);
-    };
-    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-      webkitRequestAnimationFrame || msRequestAnimationFrame;
-    if (raf) raf(function () {
-      window.setTimeout(loadDeferredStyles, 0);
-    });
-    else window.addEventListener('load', loadDeferredStyles);
-  </script>
-  <script src={{ "/assets/js/materialize.min.js" | relative_url}}></script>
-  <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems, {
-        edge: 'right'
-      });
-    });
-    document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.parallax');
-      var instances = M.Parallax.init(elems);
-    });
-  </script>
-
-</body>
-
+  </body>
 </html>

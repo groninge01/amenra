@@ -1,0 +1,25 @@
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, archive">
+    <meta name="googlebot" content="index, follow, archive">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+  
+    <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+  
+    {% if jekyll.environment == 'production' and site.analytics %}
+      {% include analytics.html %}
+    {% endif %}
+    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+    <!-- CSS  -->
+    <style>
+      html {
+        visibility: hidden;
+        opacity: 0;
+      }
+    </style>
+  
+  </head>
